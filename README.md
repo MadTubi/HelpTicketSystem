@@ -33,30 +33,31 @@ A minimal React + Vite setup with Firebase Firestore support. Contributors can r
    ```bash
       git clone https://github.com/MadTubi/HelpTickeySystem.git
       cd HelpTicketSystem
+   ```
    
-3.  **Install dependencies**
+2.  **Install dependencies**
   ```bash
       npm install
-  
-4. **Run the app with Firebase emaultor**
+```
+3.  **Run the app with Firebase emaultor**
    ```bash
       cp .env.example .env.local
-
-    **Configure .env.local for local emulator:**
+   ```
+4. **Configure .env.local for local emulator:**
   ```env
     REACT_APP_FIREBASE_API_KEY=demo-key
     REACT_APP_FIREBASE_AUTH_DOMAIN=demo.firebaseapp.com
     REACT_APP_FIREBASE_PROJECT_ID=demo-project
     REACT_APP_USE_EMULATOR=true
-
-    **Start Firebase emulator:**
+   ```
+5. **Start Firebase emulator:**
     firebase emulators:start
 
 
-    **Start React app:**
+6.  **Start React app:**
 ```bash
   npm start
-
+```
 Your app now uses the local Firestore emulator safely!!
 
 
