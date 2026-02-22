@@ -35,11 +35,11 @@ A minimal React + Vite setup with Firebase Firestore support. Contributors can r
       cd HelpTicketSystem
    ```
    
-2.  **Install dependencies**
+2. **Install dependencies**
   ```bash
       npm install
 ```
-3.  **Run the app with Firebase emaultor**
+3. **Run the app with Firebase emaultor**
    ```bash
       cp .env.example .env.local
    ```
